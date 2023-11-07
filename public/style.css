@@ -1,0 +1,109 @@
+#data-container p {
+  background-color: #474747;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.havadurumu_template {
+  background-color: #474747;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+#weatherInfo {
+  text-align: center;
+  color: rgb(232, 180, 57) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: scale(1.9);
+  margin-top: 100px !important;
+}
+
+h1 {
+  color: rgb(232, 180, 57);
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-shadow: #474747;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#map {
+  height: 360px;
+  width: 720px;
+  padding: 100px;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#centerCircle {
+  width: 450px;
+  height: 450px;
+  background-color: rgb(232, 180, 57);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+#checkInText {
+  margin-top: 25px;
+  transform: scale(2.3);
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -200px;
+}
+
+#checkLink {
+  color: rgb(85, 127, 161);
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#weatherInfo {
+  color: black;
+  margin-top: 20px;
+}
+#btnCheckIn {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  color: transparent;
+  border-radius: 50%;
+  border: none; /* Kenarlık yok */
+  cursor: pointer;
+  transform: scale(2.15);
+  margin-bottom: 30px;
+}
+#indexLink {
+  text-decoration: none !important; /* Alt çizgiyi kaldır */
+  color: yellow !important; /* Rengi sarı yap */
+}
+a:visited,
+a:link {
+  color: rgb(232, 180, 57);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
